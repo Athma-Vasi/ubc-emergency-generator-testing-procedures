@@ -1,5 +1,7 @@
 # UBC Emergency Generator Testing Notes (Unofficial)
 
+[Link to Website](https://athma-vasi.github.io/ubc-emergency-generator-testing-procedures/)
+
 ## Purpose
 
 This repository is a personal learning project that documents building-level
