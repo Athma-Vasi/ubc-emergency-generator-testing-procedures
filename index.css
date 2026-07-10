@@ -1,0 +1,85 @@
+/* Minimal modern defaults */
+
+:root {
+    --bg: #f7f8f7;
+    --surface: #ffffff;
+    --text: #16221b;
+    --muted: #4a5d52;
+    --border: #d6ddd8;
+    --max-width: 72rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 640px;
+    height: auto;
+}
+
+main,
+header,
+footer {
+    width: min(var(--max-width), 100% - 2rem);
+    margin-inline: auto;
+}
+
+main {
+    display: grid;
+    gap: 1rem;
+    padding-block: 1rem 2rem;
+}
+
+section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+figcaption {
+    overflow-wrap: break-word;
+}
+
+p,
+ul,
+ol,
+figure {
+    margin-top: 0.75rem;
+}
+
+ul,
+ol {
+    padding-left: 1.25rem;
+    display: grid;
+    gap: 0.5rem;
+}
